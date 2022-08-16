@@ -43,7 +43,4 @@ public class EmployeeService {
             }
         }
     }
-
-    //TODO
-    // add similar methods as in DAO and call them here
 }

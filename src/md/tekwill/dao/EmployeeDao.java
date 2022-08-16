@@ -23,14 +23,6 @@ public class EmployeeDao {
             }
         }
         return null;
-
-//        for (int i = 0; i < employeesArr.length; i++) {
-//            Employee searchingEmployee = employeesArr[i];
-//            if (searchingEmployee != null && searchingEmployee.getId() == employeeId) {
-//                return employeesArr[i];
-//            }
-//        }
-//        return null;
     }
 
     public void update(int employeeId, Employee updatedEmployee) {

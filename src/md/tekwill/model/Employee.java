@@ -43,4 +43,13 @@ public class Employee {
         id = idGenerator;
     }
 
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", department=" + department +
+                '}';
+    }
 }
